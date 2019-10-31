@@ -1,0 +1,21 @@
+{
+  "name": "ProjectTree",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^1.3.0",
+    "postcss-cli": "^6.1.3",
+    "purgecss": "^1.4.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postcss": "postcss ./stylesheets/css/all.css -o ./stylesheets/css/all-final.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
